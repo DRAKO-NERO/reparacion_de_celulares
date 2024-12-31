@@ -1,0 +1,1025 @@
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:172] Current task: setup
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2024-12-30 21:25:14] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-30 21:25:14] [class-ss-setup-task.php:33] Creating archive directory: C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914\
+[2024-12-30 21:25:14] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/reparacioncelulares/
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-30 21:25:14] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-30 21:25:14] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-12-30 21:25:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/
+[2024-12-30 21:25:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-12-30 21:25:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fba963c3-mulgOU.tmp
+[2024-12-30 21:25:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/?simply_static_page=1
+[2024-12-30 21:25:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/?simply_static_page=1
+[2024-12-30 21:25:15] [class-ss-url-fetcher.php:103] Filesize: 109374 bytes
+[2024-12-30 21:25:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-30 21:25:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-12-30 21:25:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fba963c3-mulgOU.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/index.html
+[2024-12-30 21:25:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:16] [class-ss-fetch-urls-task.php:159] Adding 72 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:d9c6e9605e7877fb2a8c85fc9f1c8933b2313da7===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-12-30 21:25:17] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-30 21:25:17] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-30 21:25:17] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:69] Total pages: 72; Pages remaining: 71
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd2a436-SPKMdn.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares?simply_static_page=2
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares?simply_static_page=2
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 266 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/reparacioncelulares/
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/experiencia-laboral/
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/experiencia-laboral/
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/certificados/
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/certificados/
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/2024/12/27/ubicame/
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/2024/12/27/ubicame/
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd30839-0E8JG2.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images.jpg?simply_static_page=6
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images.jpg?simply_static_page=6
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 8574 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/images.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd30839-0E8JG2.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/images.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:54782c4043b301c976bcf4d5d52b8fbd44132dea===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images-150x150.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd36a69-wt8DlV.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images-150x150.jpg?simply_static_page=7
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/images-150x150.jpg?simply_static_page=7
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 6592 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/images-150x150.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd36a69-wt8DlV.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/images-150x150.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:28675569b93236a6d9d47b2bddae1cecce763f37===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd3c8b5-FNX2wp.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1.jpg?simply_static_page=8
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1.jpg?simply_static_page=8
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 86036 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd3c8b5-FNX2wp.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:03b6ce5f9c6b90eba13b6fb68ee8c208092a9565===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-226x300.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd42075-2Hl2BH.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-226x300.jpg?simply_static_page=9
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-226x300.jpg?simply_static_page=9
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 12314 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-226x300.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd42075-2Hl2BH.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-226x300.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:ed2cde43ca7d529d816273b84d3dbc57d7495fb0===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-770x1024.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd47d7a-etKKpm.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-770x1024.jpg?simply_static_page=10
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-770x1024.jpg?simply_static_page=10
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 75448 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-770x1024.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd47d7a-etKKpm.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-770x1024.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:a455f5c4471be60cb96e336403661616fc1e632e===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-768x1021.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd4db2c-Wqi9ku.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-768x1021.jpg?simply_static_page=11
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-768x1021.jpg?simply_static_page=11
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 75359 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-768x1021.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd4db2c-Wqi9ku.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/84af598e-4af0-47f5-9040-628808540647-1-768x1021.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:3594ab15e3ce740e247ac9ed42fe2d3d81bb6aaa===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1.png
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd53337-7u67UJ.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1.png?simply_static_page=12
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1.png?simply_static_page=12
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 135272 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/foto-sin-fondo1.png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd53337-7u67UJ.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/foto-sin-fondo1.png
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:e25cf01053279ce1ed47da683c60ffb550f156c7===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1-300x169.png
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd59493-Tw2Itt.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1-300x169.png?simply_static_page=13
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/foto-sin-fondo1-300x169.png?simply_static_page=13
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 35009 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/foto-sin-fondo1-300x169.png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd59493-Tw2Itt.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/foto-sin-fondo1-300x169.png
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:44a1bbe45898776456b703dd85152cdb3680b6bf===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/images/review.png
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd5e554-XEo9rC.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/images/review.png?simply_static_page=14
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/images/review.png?simply_static_page=14
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 1229 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/images/review.png
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd5e554-XEo9rC.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/images/review.png
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:05c845117cc646e95d3ec5972adaac8ddb970366===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-scaled.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd640c9-9lE4OR.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-scaled.jpg?simply_static_page=15
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-scaled.jpg?simply_static_page=15
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 348764 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-scaled.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd640c9-9lE4OR.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-scaled.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:df51eb77180147574ce75eabb9caf935b416509c===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-300x216.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd6b414-KHD9GN.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-300x216.jpg?simply_static_page=16
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-300x216.jpg?simply_static_page=16
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 12702 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-300x216.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd6b414-KHD9GN.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-300x216.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:09c5c05cc51e18683851f3fda5a8493d0e9066ba===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1024x736.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd70247-xNxWoQ.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1024x736.jpg?simply_static_page=17
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1024x736.jpg?simply_static_page=17
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 82643 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-1024x736.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd70247-xNxWoQ.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-1024x736.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:761ef33f39c92d46137134b30e86b88b2b7cab93===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-768x552.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd76556-EgPd0S.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-768x552.jpg?simply_static_page=18
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-768x552.jpg?simply_static_page=18
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 54103 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-768x552.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd76556-EgPd0S.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-768x552.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:96c0b8dd80f69dfee00c16b0412ae6a72720991b===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1536x1104.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd7c076-6KtJnS.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1536x1104.jpg?simply_static_page=19
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-1536x1104.jpg?simply_static_page=19
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 149957 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-1536x1104.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd7c076-6KtJnS.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-1536x1104.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:e591a186614d40149327f05b6663d2daef92dcb3===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-2048x1472.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd818e0-bFlBBB.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-2048x1472.jpg?simply_static_page=20
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/IMG_20240925_141819-1-2048x1472.jpg?simply_static_page=20
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 237342 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/IMG_20240925_141819-1-2048x1472.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd818e0-bFlBBB.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/IMG_20240925_141819-1-2048x1472.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:514f4815179a11c37ae06b5d44321602a97b0cd7===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd87a8c-10re0D.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001.jpg?simply_static_page=21
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001.jpg?simply_static_page=21
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 596161 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd87a8c-10re0D.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:0fc391d3fe64d64c970b527c0488e8b7be5d1b74===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd8f3cd-BFnM7n.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-300x232.jpg?simply_static_page=22
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-300x232.jpg?simply_static_page=22
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 12998 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd8f3cd-BFnM7n.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:8f58d43f4af7028b74e14616cb5b21c420968b40===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd95963-pAPCTr.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1024x791.jpg?simply_static_page=23
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1024x791.jpg?simply_static_page=23
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 91564 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd95963-pAPCTr.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:85f0bdc995d1e96a14d9f69e894152800a963b8e===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbd9b025-OfOpTA.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-768x593.jpg?simply_static_page=24
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-768x593.jpg?simply_static_page=24
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 60462 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbd9b025-OfOpTA.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:42264f45758a3232ab7c6a5855472a2f90d287af===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbda16ac-tuveAv.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1536x1187.jpg?simply_static_page=25
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1536x1187.jpg?simply_static_page=25
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 172824 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbda16ac-tuveAv.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_tecnico-en-redes-de-datos_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:391bc8bce80ddfbaeb4200581d198154d49e58ad===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbda7ad7-11wYhK.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001.jpg?simply_static_page=26
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001.jpg?simply_static_page=26
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 585011 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_asistente-web_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbda7ad7-11wYhK.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_asistente-web_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:eb461400fdbdeb24f96c876b07dc1670d18af5c1===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdafa8c-3VHhgv.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-300x232.jpg?simply_static_page=27
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-300x232.jpg?simply_static_page=27
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 12536 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_asistente-web_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdafa8c-3VHhgv.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:84aa8ec386ced2ce0c879f8815f242230c03b9ad===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdb5890-FdeI1U.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1024x791.jpg?simply_static_page=28
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1024x791.jpg?simply_static_page=28
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 89952 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdb5890-FdeI1U.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:b42cc7dca9844bf93cfc20be5b76ed8220cac820===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdbb5cd-Y1vLJu.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-768x593.jpg?simply_static_page=29
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-768x593.jpg?simply_static_page=29
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 59129 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_asistente-web_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdbb5cd-Y1vLJu.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:a67aa6c70d923888132675d9f57e00c2e4777d5b===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdc1098-clPTNX.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1536x1187.jpg?simply_static_page=30
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1536x1187.jpg?simply_static_page=30
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 170242 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdc1098-clPTNX.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/certificado_asistente-web_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:e70ce1aae320fcf556138a9cbb3f5dc1153a77c5===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdc6918-wpwNW1.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001.jpg?simply_static_page=31
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001.jpg?simply_static_page=31
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 554399 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdc6918-wpwNW1.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:6a97b88dfd91854458cba05b27077080aa165677===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdce157-r0KYDc.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-300x232.jpg?simply_static_page=32
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-300x232.jpg?simply_static_page=32
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 14660 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdce157-r0KYDc.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:118f3ef4d6c6616444ac3b739d477f9b149c0844===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdd2c48-ag3rl7.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1024x791.jpg?simply_static_page=33
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1024x791.jpg?simply_static_page=33
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 107032 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdd2c48-ag3rl7.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:b3509017651abfcba112ce40394e2c0456ae16b3===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdd886e-MQWHC9.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-768x593.jpg?simply_static_page=34
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-768x593.jpg?simply_static_page=34
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 68776 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdd886e-MQWHC9.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-768x593.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:ba9208416286cab4c664e284a383220413400afa===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdde595-Stryof.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1536x1187.jpg?simply_static_page=35
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1536x1187.jpg?simply_static_page=35
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 187514 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdde595-Stryof.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Networking_Basics_Badge20241025-7-ebfd2c-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:c2ee2f910edd191b1e6525e0c2508494b4746d66===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbde4245-go0BA6.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001.jpg?simply_static_page=36
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001.jpg?simply_static_page=36
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 642401 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbde4245-go0BA6.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:94ebe525d5c10c6016d859ac15fa70c15e709178===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdeb1a1-e9K9ob.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-300x232.jpg?simply_static_page=37
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-300x232.jpg?simply_static_page=37
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:103] Filesize: 19057 bytes
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdeb1a1-e9K9ob.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-300x232.jpg
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:17] [class-ss-page.php:119] Checking Content Identical:ca443261dd79f5f2a7fb28c89cda6e975a5ed158===. Value: FALSE
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 72
+[2024-12-30 21:25:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbdf2e10-5RASWp.tmp
+[2024-12-30 21:25:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1024x791.jpg?simply_static_page=38
+[2024-12-30 21:25:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1024x791.jpg?simply_static_page=38
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 117720 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbdf2e10-5RASWp.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1024x791.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:f9cff5f7c5e3a2562d6497d745ae595e74827fb5===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-768x593.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe04c72-UZTkNi.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-768x593.jpg?simply_static_page=39
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-768x593.jpg?simply_static_page=39
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 77072 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-768x593.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe04c72-UZTkNi.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-768x593.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:26c2bf840a0a147f638f58bee58b94b7631de788===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe0ad7b-axER0D.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1536x1187.jpg?simply_static_page=40
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1536x1187.jpg?simply_static_page=40
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 194899 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe0ad7b-axER0D.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/Oscar-Adiel-Sulla-Zapata-1_page-0001-1536x1187.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:a58e95c482f6b2546ba089616e656d62c46bb4c8===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe108ec-JOGmPy.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1.jpg?simply_static_page=41
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1.jpg?simply_static_page=41
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 160216 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe108ec-JOGmPy.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:1c8bf821af2d55c9655a1b5ce3516ca774e78e60===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-232x300.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe169ec-MvpNif.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-232x300.jpg?simply_static_page=42
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-232x300.jpg?simply_static_page=42
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 13458 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-232x300.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe169ec-MvpNif.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-232x300.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:8bb58d4cbdfe75f47cd13c8c293b0f82b042a5a2===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-791x1024.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe1c239-M9LcGp.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-791x1024.jpg?simply_static_page=43
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-791x1024.jpg?simply_static_page=43
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 92611 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-791x1024.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe1c239-M9LcGp.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-791x1024.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:a8bc4205253ba5f5ef1aee9dc3381527d6cce4e9===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-768x994.jpg
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe220fa-YHB7va.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-768x994.jpg?simply_static_page=44
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-768x994.jpg?simply_static_page=44
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 88740 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-768x994.jpg
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe220fa-YHB7va.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/uploads/2024/12/CERTIFICADOS-DE-ESTUDIOS-1_page-0002-1-768x994.jpg
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:065884c8fedbd8f7bebabb966366868dd5af2f16===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/js/scroll-to-top.js
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe27eae-hiGoaj.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/js/scroll-to-top.js?simply_static_page=45
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/js/scroll-to-top.js?simply_static_page=45
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 706 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/js/scroll-to-top.js
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe27eae-hiGoaj.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/js/scroll-to-top.js
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:4563b38ab0b126bc0de8e79041981ff0b9c8b2b1===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/feed/
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/feed/
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/comments/feed/
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/comments/feed/
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/blocks/social-links/style.min.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe32b4c-2BXnlx.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/blocks/social-links/style.min.css?simply_static_page=48
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/blocks/social-links/style.min.css?simply_static_page=48
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe32b4c-2BXnlx.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/blocks/social-links/style.min.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:31aa11f7c686b08c09618aad559b886161247a72===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/blocks/cover/style.min.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe3fa01-45KbZb.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/blocks/cover/style.min.css?simply_static_page=49
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/blocks/cover/style.min.css?simply_static_page=49
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 18099 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe3fa01-45KbZb.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/blocks/cover/style.min.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:c66e72e25362483017fa1c49bcae6e4087fe47c7===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/blocks/navigation/style.min.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe4e54c-yh7nDN.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/blocks/navigation/style.min.css?simply_static_page=50
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/blocks/navigation/style.min.css?simply_static_page=50
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe4e54c-yh7nDN.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/blocks/navigation/style.min.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/style.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe5c9ba-D07jIz.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/style.css?simply_static_page=51
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/style.css?simply_static_page=51
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 59776 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/style.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe5c9ba-D07jIz.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/style.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:69217a28dd3b18ce21f3675060c0cfcfa3770633===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 72 pages/files
+[2024-12-30 21:25:18] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-30 21:25:18] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-30 21:25:18] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:69] Total pages: 72; Pages remaining: 21
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/css/dashicons.min.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe6be9b-oEw6BA.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/css/dashicons.min.css?simply_static_page=52
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/css/dashicons.min.css?simply_static_page=52
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 59016 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe6be9b-oEw6BA.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/css/dashicons.min.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:f47d3648beb42f03e62e441cd34ce7e5f62a9ab9===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/plugins/simple-lightbox/client/css/app.css
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe8d600-RrDFNc.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/plugins/simple-lightbox/client/css/app.css?simply_static_page=53
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/plugins/simple-lightbox/client/css/app.css?simply_static_page=53
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 231 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/simple-lightbox/client/css/app.css
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe8d600-RrDFNc.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/plugins/simple-lightbox/client/css/app.css
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:4b2b2cb43bdba2d07091efc5eb45f1c0f007e699===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/index.php/wp-json/
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/index.php/wp-json/
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/xmlrpc.php
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/reparacioncelulares/xmlrpc.php
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe979cc-ybQ9S3.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Regular.ttf?simply_static_page=56
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Regular.ttf?simply_static_page=56
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 215516 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe979cc-ybQ9S3.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:9ea0ea4d9ed8fda292db458366dbd9af013eced7===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbe9fc40-vmm9qp.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Bold.ttf?simply_static_page=57
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Bold.ttf?simply_static_page=57
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 196092 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbe9fc40-vmm9qp.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/PT_Serif/PTSerif-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:581675fd5d3734c5ee1506359190ce467c477e18===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Light.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbea571b-zG4RMa.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Light.ttf?simply_static_page=58
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Light.ttf?simply_static_page=58
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40452 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Light.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbea571b-zG4RMa.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Light.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:26230ef0c457c513292d79dc66a85cde6b9d3be2===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbeae5cd-tyJdwS.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Regular.ttf?simply_static_page=59
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Regular.ttf?simply_static_page=59
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40580 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbeae5cd-tyJdwS.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:c586fd0f316e04ae18653c1b2a775b6f86a91b1f===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Medium.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbeb57ed-sVx5Xr.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Medium.ttf?simply_static_page=60
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Medium.ttf?simply_static_page=60
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40608 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Medium.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbeb57ed-sVx5Xr.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Medium.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:f6431c4b7001d1db876724d0cd8e03c08090968c===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-SemiBold.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbebd4b0-1BVc6D.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-SemiBold.ttf?simply_static_page=61
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-SemiBold.ttf?simply_static_page=61
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40848 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-SemiBold.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbebd4b0-1BVc6D.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-SemiBold.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:2ea7fc1ee37e1dbb3fdd8958849faa68bf243876===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbec3fc3-IYRmep.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Bold.ttf?simply_static_page=62
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Bold.ttf?simply_static_page=62
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40816 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbec3fc3-IYRmep.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Bold.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:f664fe9bd6988363da23cff23dfa937ac7b3750e===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbece4ce-hXqdVQ.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf?simply_static_page=63
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf?simply_static_page=63
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40852 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbece4ce-hXqdVQ.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-ExtraBold.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:1339f200ff67befeac98c071f3512aac55d8d75b===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Black.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbed5183-Qd3GXs.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Black.ttf?simply_static_page=64
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Black.ttf?simply_static_page=64
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 40816 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Black.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbed5183-Qd3GXs.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Figtree/static/Figtree-Black.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:9ee89ca1d3d10f1435fa33a6dab9682387aca33b===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Thin.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbedbfff-LTH8ip.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Thin.ttf?simply_static_page=65
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Thin.ttf?simply_static_page=65
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 163896 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Thin.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbedbfff-LTH8ip.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Thin.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:24ab661e5c643c4c08f7c020fc198669dd746c70===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Light.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbee43cf-hu64ry.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Light.ttf?simply_static_page=66
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Light.ttf?simply_static_page=66
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 164112 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Light.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbee43cf-hu64ry.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Light.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:e18f4467e6ddb09a6edd1d0c561a4fb360ff7be1===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbeec3d3-YJxrSx.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Regular.ttf?simply_static_page=67
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Regular.ttf?simply_static_page=67
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:103] Filesize: 164116 bytes
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbeec3d3-YJxrSx.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Regular.ttf
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:18] [class-ss-page.php:119] Checking Content Identical:2b673d65ef7a66233c1fb1fd0424ef067a787cca===. Value: FALSE
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Medium.ttf
+[2024-12-30 21:25:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 72
+[2024-12-30 21:25:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbef3bc0-er4npr.tmp
+[2024-12-30 21:25:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Medium.ttf?simply_static_page=68
+[2024-12-30 21:25:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Medium.ttf?simply_static_page=68
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 164128 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Medium.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbef3bc0-er4npr.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Medium.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:2e9d4e3f2a0746ec49ed2779992a7b0900fb8302===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 72
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf04fca-k4cHeD.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-SemiBold.ttf?simply_static_page=69
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-SemiBold.ttf?simply_static_page=69
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 164132 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf04fca-k4cHeD.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:3dd2bfca1944f82e928417d0399b8725b83728aa===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Bold.ttf
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 72
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf0cc59-VBKBPD.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Bold.ttf?simply_static_page=70
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Bold.ttf?simply_static_page=70
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 164044 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Bold.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf0cc59-VBKBPD.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Bold.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:ab21b55115bd50a57f3a95ec4eda834eee675d04===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 72
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf14bd1-wnrhAy.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf?simply_static_page=71
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf?simply_static_page=71
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 164152 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf14bd1-wnrhAy.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:4205b551172092ee7b23cc884aa9cddaef97e624===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Black.ttf
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 72
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf1c1a2-cWXNpw.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Black.ttf?simply_static_page=72
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Black.ttf?simply_static_page=72
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 163684 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Black.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf1c1a2-cWXNpw.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-content/themes/radiant-portfolio/assets/fonts/Raleway/static/Raleway-Black.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:008ce784e9f5a60f64677b8798a9bd7ccb253ba5===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 72 pages/files
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:69] Total pages: 74; Pages remaining: 2
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.eot
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 74
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf251cb-jJlxp8.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.eot?simply_static_page=73
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.eot?simply_static_page=73
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 56564 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.eot
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf251cb-jJlxp8.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/fonts/dashicons.eot
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:f90206d72a97c26bb9618d7d7e0d10ddfd652291===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.ttf
+[2024-12-30 21:25:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 74
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf2bcc4-ve9aIw.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.ttf?simply_static_page=74
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/wp-includes/fonts/dashicons.ttf?simply_static_page=74
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 56392 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.ttf
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf2bcc4-ve9aIw.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914/wp-includes/fonts/dashicons.ttf
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-30 21:25:19] [class-ss-page.php:119] Checking Content Identical:540fe646c1727587dc8f9c94b676b5e4a2fceea7===. Value: FALSE
+[2024-12-30 21:25:19] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 72 of 74 pages/files
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-30 21:25:19] [class-ss-fetch-urls-task.php:69] Total pages: 74; Pages remaining: 0
+[2024-12-30 21:25:19] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 74 of 74 pages/files
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2024-12-30 21:25:19] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2024-12-30 21:25:19] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\osads\AppData\Local\Temp/67730fbf35b6b-vxdBv9.tmp
+[2024-12-30 21:25:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/reparacioncelulares/1735593920?simply_static_page=0
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/reparacioncelulares/1735593920?simply_static_page=0
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:103] Filesize: 66429 bytes
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-30 21:25:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\osads\AppData\Local\Temp/67730fbf35b6b-vxdBv9.tmp to C:\MAMP\htdocs\reparacioncelulares/wp-content/uploads\simply-static\temp-files/simply-static-1-1735593914\404/index.html
+[2024-12-30 21:25:19] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-30 21:25:20] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-30 21:25:20] [class-ss-page.php:119] Checking Content Identical:c65c7160e7b1698380e9cdf66c4ece56fad0d565===. Value: FALSE
+[2024-12-30 21:25:20] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2024-12-30 21:25:20] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-12-30 21:25:20] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-12-30 21:25:20] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/reparacioncelulares/wp-content/uploads/simply-static/temp-files/simply-static-1-1735593914.zip">Click here to download</a>
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2024-12-30 21:25:20] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-30 21:25:20] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:244] Completing the job
+[2024-12-30 21:25:20] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:06
